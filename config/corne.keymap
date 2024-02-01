@@ -28,12 +28,12 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |   `  |  :  |  {  |  }  |  -  |  !  |   |  @  |  7  |  8  |  9  |  #  |      |
-// | BKSP |  =  |  _  |  ^  |  (  |  )  |   |  &  |  4  |  5  |  6  |  0  |  DEL |
+// |______|  =  |  _  |  ^  |  (  |  )  |   |  &  |  4  |  5  |  6  |  0  |______|
 // |   '  |  ;  |  [  |  ]  |  +  |  *  |   |  %  |  1  |  2  |  3  |  /  |______|
 //                    |_____|_____|_____|   |_____|_____|_____|
                         bindings = <
    &kp GRAVE  &kp COLON    &kp LBRC     &kp RBRC     &kp KP_MINUS &kp EXCL       &kp AT    &kp N7   &kp N8  &kp N9    &kp HASH  &kp DQT
-   &trans     &kp KP_EQUAL &kp UNDER    &kp CARET    &kp LPAR     &kp RPAR       &kp AMPS  &kp N4   &kp N5  &kp N6    &kp N0    &trans
+   &trans     &kp EQUAL    &kp UNDER    &kp CARET    &kp LPAR     &kp RPAR       &kp AMPS  &kp N4   &kp N5  &kp N6    &kp N0    &trans
    &kp SQT    &kp SEMI     &kp LBKT     &kp RBKT     &kp PLUS     &kp STAR       &kp PRCNT &kp N1   &kp N2  &kp N3    &kp FSLH  &trans
                                         &trans       &trans       &trans         &trans    &trans   &trans
                         >;
