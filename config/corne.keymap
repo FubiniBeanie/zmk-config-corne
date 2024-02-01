@@ -14,15 +14,15 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+// |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  $  | ENTR |
+// | BKSP |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  O  |  I  | DEL  |
+// | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  \  | ESC  |
+//                  | GUI | LCRTL | NUM |   | SPC/ARROW | SHFT  | ALT |
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
-   &kp BSPC  &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp O   &kp I    &kp SQT
+   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp DLLR &kp RET
+   &kp BSPC  &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp O   &kp I    &kp DEL
    &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
+                  &kp LGUI &kp LCTRL &mo 1    &lt 2 SPACE &kp LSHFT &kp RALT
                         >;
                 };
                 lower_layer {
